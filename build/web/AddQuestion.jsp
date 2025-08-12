@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Baloo+Bhaina+2:wght@800&display=swap" rel="stylesheet">
+    <style>
+        /* CSS RESET  */
+        body{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url(Images/Student7.jpg);
+            background-repeat:no-repeat ;
+           background-size: 1550px 800px;  
+           font-family: Baloo Bhai;  
+           
+        }
+        .navbar
+        {
+         display: inline-block;
+         border: 3px solid white;
+        margin-left: 0%;
+         margin-top: 25px;
+         border-radius: 5px;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: red;
+            font-size:23px;
+            padding: 15px;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+           
+           color: black;
+           font-size:23px;
+           padding:15px;
+           text-decoration: none; 
+       }
+     
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <ul>
+        <li><a href="StudentList.jsp"> Student List</a> </li>
+        <li><a href="AddQuestion.jsp">Update Student</a></li>
+        <li><a href="QuestionList.jsp">Question List</a></li>
+        <li> <a href="UpdateQuestion.jsp">Update Question</a></li>
+        <li><a href="AdminResult.jsp">Result</a></li>
+        <li><a href="AdminChangePswd.jsp">Change Password</a></li>
+        <li><a href="Logout">Log Out</a></li>
+        </ul>
+    </div><hr>
+    </header>
+<center>
+    <div style="width:1000px;height: 650px; background-color: lightgray; border: 2px solid brown;">
+        <h1 style="color:brown;">
+            <form action="AddQuestion">
+                <table width="600p" cellspacing="0" cellpadding="5" border="1">
+                        <td width="200">Question ID</td>
+                    <td><input type="number" name="qid" style="width:400px;height: 40px;"></td></tr>
+                    <td width="200">Question</td>
+                    <td><input type="text"  name="ques"style="width:400px;height: 40px;"></td></tr>
+                    <td width="200">Option1</td>
+                     <td><input type="text" name="ques1" style="width:400px;height: 40px;"></td></tr>
+                    <td width="200">Option2</td>
+                     <td><input type="text" name="ques2" style="width:400px;height: 40px;"></td></tr>
+                    <td width="200">Option3</td>
+                    <td><input type="text" name="ques3" style="width:400px;height: 40px;"></td></tr>
+                      <td width="200">Option4</td>
+                    <td><input type="text" name="ques4" style="width:400px;height: 40px;"></td></tr>
+                    <td width="200">Answer</td>
+                    <td><input type="text" name="ans" style="width:400px;height: 40px;"></td></tr>
+                <tr><th colspan="2"><input type="submit" style="width:150px;height: 40px; background-color: red; ">
+                    <input type="reset"style="width:150px; height:40px; background-color: lightgreen;"></th></tr>
+                </table>
+            </form>
+        </h1>
+    </div>
+</center>
+    
+</body>
+</html>
