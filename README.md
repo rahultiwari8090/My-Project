@@ -1,2 +1,3 @@
-This project is used for billing the payment of online shopping goods.
-Calculates price and MRP then make the receipt with all product's details.
+This project is used for online Exam .
+It is used for calculating the results of students by checking the answers.
+All the access is in admins hand.
